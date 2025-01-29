@@ -1,0 +1,14 @@
+{
+    "users": [
+        {"id": "user_id_1", "name": "@username1", "role": "user", "group": "1", "student_id": "1A2B3C", "fio": "Иван Иванов"}
+    ],
+    "assistants": [
+        {"id": "assistant_id_1", "name": "@assistant1", "role": "assistant", "position": "Помощь", "fio": "Петр Петров"}
+    ],
+    "tasks": [
+        {"title": "Task 1", "file_path": "tasks/task_1.txt", "groups": ["1", "2"]}
+    ],
+    "tests": [
+        {"title": "Test 1", "file_path": "tests/test_1.json", "groups": ["1", "2"], "results": {}}
+    ]
+}
